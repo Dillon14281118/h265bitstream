@@ -11,3 +11,7 @@ h265bitstreamVS.exe <H.265 input bitstream>
 
 示例：
 h265bitstreamVS.exe h265.bin
+
+用其他版本的VS编译时如果报错“error C2054: 在“inline”之后应输入“(””，那是因为inline是c++的特性，在c语言里使用会发生错误，此时在bs.h里加入一行，
+#define inline __inline
+即可解决
