@@ -5,7 +5,7 @@ a parser for H.265 bitstream
 能够解析H.265码流的VPS、SPS、PPS、slice header。
 
 使用方法：
-使用Visual Studio打开h265bitstreamVS.sln直接编译即可，会在h265bitstreamVS\x64\Debug目录下产生h265bitstreamVS.exe。
+使用Visual Studio 2019打开h265bitstreamVS.sln直接编译即可，会在h265bitstreamVS\x64\Debug目录下产生h265bitstreamVS.exe。
 运行命令：
 h265bitstreamVS.exe <H.265 input bitstream>
 
