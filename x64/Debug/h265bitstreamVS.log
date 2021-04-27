@@ -1,0 +1,41 @@
+﻿  h265_analyze.c
+D:\h265bitstreamVS\bs.h(107,88): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(107,123): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(109,70): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(326,69): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(337,69): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(348,69): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\h265_analyze.c(120,35): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  h265_nal.c
+D:\h265bitstreamVS\bs.h(107,88): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(107,123): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(109,70): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(326,69): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(337,69): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(348,69): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  h265_stream.c
+D:\h265bitstreamVS\bs.h(107,88): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(107,123): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(109,70): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(326,69): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(337,69): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\bs.h(348,69): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\h265_stream.c(573,9): warning C4477: “fprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“__int64”
+D:\h265bitstreamVS\h265_stream.c(573,9): message : 请考虑在格式字符串中使用“%lld”
+D:\h265bitstreamVS\h265_stream.c(573,9): message : 请考虑在格式字符串中使用“%Id”
+D:\h265bitstreamVS\h265_stream.c(573,9): message : 请考虑在格式字符串中使用“%I64d”
+D:\h265bitstreamVS\h265_stream.c(580,5): warning C4477: “fprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“__int64”
+D:\h265bitstreamVS\h265_stream.c(580,5): message : 请考虑在格式字符串中使用“%lld”
+D:\h265bitstreamVS\h265_stream.c(580,5): message : 请考虑在格式字符串中使用“%Id”
+D:\h265bitstreamVS\h265_stream.c(580,5): message : 请考虑在格式字符串中使用“%I64d”
+D:\h265bitstreamVS\h265_stream.c(584,9): warning C4477: “fprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“__int64”
+D:\h265bitstreamVS\h265_stream.c(584,9): message : 请考虑在格式字符串中使用“%lld”
+D:\h265bitstreamVS\h265_stream.c(584,9): message : 请考虑在格式字符串中使用“%Id”
+D:\h265bitstreamVS\h265_stream.c(584,9): message : 请考虑在格式字符串中使用“%I64d”
+D:\h265bitstreamVS\h265_stream.c(599,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\h265_stream.c(600,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\h265bitstreamVS\h265_stream.c(981,9): warning C4473: “fprintf”: 没有为格式字符串传递足够的参数
+D:\h265bitstreamVS\h265_stream.c(981,9): message : 占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+D:\h265bitstreamVS\h265_stream.c(981,9): message : 缺失的可变参数 1 为格式字符串“%d”所需
+  正在生成代码...
+  h265bitstreamVS.vcxproj -> D:\h265bitstreamVS\x64\Debug\h265bitstreamVS.exe
