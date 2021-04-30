@@ -53,7 +53,7 @@ h265_stream_t* h265_new()
 void h265_free(h265_stream_t* h)
 {
     free(h->nal);
-
+    for (int i = 0; i < 16; i++) { free(h->vps_table[i]); }
     for (int i = 0; i < 32; i++) { free(h->sps_table[i]); }
     for (int i = 0; i < 256; i++) { free(h->pps_table[i]); }
 
@@ -152,7 +152,7 @@ int rbsp_to_nal(const uint8_t* rbsp_buf, const int* rbsp_size, uint8_t* nal_buf,
             // error, not enough space
             return -1;
         }
-        //·À³åÍ»
+        //Â·Ã€Â³Ã¥ÃÂ»
         if ((count == 2) && !(rbsp_buf[i] & 0xFC)) // HACK 0xFC
         {
             nal_buf[j] = 0x03;
